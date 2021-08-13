@@ -1,0 +1,78 @@
+.live_rate_box {
+  margin-top: 30px;
+  padding: 20px 30px 20px 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid #99e4c4;
+  background-color: #bfecd4;
+  box-shadow: 0 1px 4px 0 #D5D9DD;
+}
+
+.lock_rate_box {
+  margin-top: 20px;
+  padding: 20px 30px 20px 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid #65c1e6;
+  background-color: #91d3ec;
+  box-shadow: 0 1px 4px 0 #D5D9DD;
+}
+
+.text_1, text_2 {
+  color: #3166a3;
+  font-family: Montserrat;
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+.text_2 {
+  margin-top: 20px;
+  color: #31a34e;
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.text_3 {
+  margin-top: 20px;
+  color: #31a34e;
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.img_1 {
+  /* width: 50px; */
+  margin-top: 20px;
+  text-align: center;
+}
+
+.counter_normal, .counter_warn {
+  margin-top: 10px;
+  color: #31a34e;
+  letter-spacing: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.counter_warn {
+  color: #f0556f;
+}
+
+.loading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.style_1 {
+  margin-top: 20px;
+}

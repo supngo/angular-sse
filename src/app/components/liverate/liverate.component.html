@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="live_rate_box">
+    <div class="text_1">Index Rate ({{ duration }} years)</div>
+
+    <!-- <div *ngIf="(liverate | async); let evt; else loading"> -->
+    <div *ngIf="result && result.name; else loading">
+      <div class="text_2">{{result.rate}} </div>
+    </div>
+    <ng-template #loading>
+      <div class="loading">Connecting...</div>
+      <div class="img_1"><img src="/assets/images/spinner.gif"></div>
+    </ng-template>
+  </div>
+  <div class="style_1">
+    <button type="button" class="btn btn-success" [disabled]="!result || !result.name" (click)="lockLiveRate()">Lock</button>
+  </div>
+  <div *ngIf="lockRate" class="lock_rate_box">
+    <div class="text_1">Lock Rate</div>
+    <div class="text_2">{{ lockRate }}</div>
+    <div [ngClass]="{'counter_normal': counter >=10, 'counter_warn': counter <10 }">{{ countdownString }}</div>
+  </div>
+</div>
